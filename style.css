@@ -1270,3 +1270,36 @@ cite {
 }
 
 .gallery-subtitle i { font-size: 1rem; }
+
+/* =============================================
+   CLASES MIGRADAS DESDE ATRIBUTOS style="" EN HTML
+   Todos los estilos inline del HTML fueron
+   convertidos a clases CSS para mantener
+   separación correcta entre estructura y estilo.
+   ============================================= */
+
+/* Subtítulo de galería — separador superior para la sección conf2 */
+.gallery-subtitle--conf2 {
+  margin-top: 3rem;
+}
+
+/* Tabla del glosario — separación inferior entre parte 1 y parte 2 */
+.table-wrapper--gap {
+  margin-bottom: 2.5rem;
+}
+
+/* Tarjeta de cita — variante roja (cita de Ericsson / Infraestructura Crítica) */
+.quote-card--red {
+  margin-top: 1.2rem;
+  border-color: rgba(239, 68, 68, 0.3);
+}
+
+/* Ícono de comilla — variante roja */
+.quote-icon--red {
+  color: #ef4444;
+}
+
+/* Ícono corazón en el pie de página */
+.icon-heart {
+  color: #e74c3c;
+}
